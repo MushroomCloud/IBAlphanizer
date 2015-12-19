@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7CE53D1C25FD120000D765 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7CE53C1C25FD120000D765 /* AppKit.framework */; };
+		6D7CE53F1C25FD120000D765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7CE53E1C25FD120000D765 /* Foundation.framework */; };
+		6D7CE5431C25FD120000D765 /* IB Alphanizer.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 6D7CE5421C25FD120000D765 /* IB Alphanizer.xcscheme */; };
+		6D7CE5461C25FD120000D765 /* IBAlphanizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE5451C25FD120000D765 /* IBAlphanizer.m */; };
+		6D7CE5491C25FD120000D765 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE5481C25FD120000D765 /* NSObject_Extension.m */; };
+		6D7CE55F1C2612B40000D765 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE55D1C2612B40000D765 /* JRSwizzle.m */; };
+		6D7CE5691C263D760000D765 /* IBAlphanizerPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE5681C263D760000D765 /* IBAlphanizerPrefs.m */; };
+		6D7CE5701C263DE70000D765 /* IBAlphanizer+Swizzles.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE56D1C263DE70000D765 /* IBAlphanizer+Swizzles.m */; };
+		6D7CE5741C263E0A0000D765 /* IBAlphanizerResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE5731C263E0A0000D765 /* IBAlphanizerResource.m */; };
+		6D7CE5791C2643A00000D765 /* IDEInterfaceBuilderCocoaTouchIntegration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7CE5781C26435C0000D765 /* IDEInterfaceBuilderCocoaTouchIntegration.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6D7CE7CC1C264A1B0000D765 /* IBUIEditorView+Swizzles.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE7CB1C264A1B0000D765 /* IBUIEditorView+Swizzles.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D7CE5391C25FD120000D765 /* IB Alphanizer.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IB Alphanizer.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7CE53C1C25FD120000D765 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		6D7CE53E1C25FD120000D765 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		6D7CE5421C25FD120000D765 /* IB Alphanizer.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "IB Alphanizer.xcscheme"; path = "IB Alphanizer.xcodeproj/xcshareddata/xcschemes/IB Alphanizer.xcscheme"; sourceTree = SOURCE_ROOT; };
+		6D7CE5441C25FD120000D765 /* IBAlphanizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBAlphanizer.h; sourceTree = "<group>"; };
+		6D7CE5451C25FD120000D765 /* IBAlphanizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBAlphanizer.m; sourceTree = "<group>"; };
+		6D7CE5471C25FD120000D765 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		6D7CE5481C25FD120000D765 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		6D7CE54A1C25FD120000D765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7CE55C1C2612B40000D765 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		6D7CE55D1C2612B40000D765 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		6D7CE55E1C2612B40000D765 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		6D7CE5671C263D760000D765 /* IBAlphanizerPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBAlphanizerPrefs.h; sourceTree = "<group>"; };
+		6D7CE5681C263D760000D765 /* IBAlphanizerPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBAlphanizerPrefs.m; sourceTree = "<group>"; };
+		6D7CE56C1C263DE70000D765 /* IBAlphanizer+Swizzles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IBAlphanizer+Swizzles.h"; sourceTree = "<group>"; };
+		6D7CE56D1C263DE70000D765 /* IBAlphanizer+Swizzles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IBAlphanizer+Swizzles.m"; sourceTree = "<group>"; };
+		6D7CE5721C263E0A0000D765 /* IBAlphanizerResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBAlphanizerResource.h; sourceTree = "<group>"; };
+		6D7CE5731C263E0A0000D765 /* IBAlphanizerResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBAlphanizerResource.m; sourceTree = "<group>"; };
+		6D7CE5781C26435C0000D765 /* IDEInterfaceBuilderCocoaTouchIntegration.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = IDEInterfaceBuilderCocoaTouchIntegration.a; sourceTree = "<group>"; };
+		6D7CE7CA1C264A1B0000D765 /* IBUIEditorView+Swizzles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IBUIEditorView+Swizzles.h"; sourceTree = "<group>"; };
+		6D7CE7CB1C264A1B0000D765 /* IBUIEditorView+Swizzles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IBUIEditorView+Swizzles.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7CE5371C25FD120000D765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CE53D1C25FD120000D765 /* AppKit.framework in Frameworks */,
+				6D7CE53F1C25FD120000D765 /* Foundation.framework in Frameworks */,
+				6D7CE5791C2643A00000D765 /* IDEInterfaceBuilderCocoaTouchIntegration.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7CE5301C25FD120000D765 = {
+			isa = PBXGroup;
+			children = (
+				6D7CE55A1C2612B40000D765 /* 3rd Party */,
+				6D7CE5401C25FD120000D765 /* IB Alphanizer */,
+				6D7CE53B1C25FD120000D765 /* Frameworks */,
+				6D7CE5751C2643270000D765 /* Private Frameworks */,
+				6D7CE53A1C25FD120000D765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7CE53A1C25FD120000D765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE5391C25FD120000D765 /* IB Alphanizer.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7CE53B1C25FD120000D765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE53C1C25FD120000D765 /* AppKit.framework */,
+				6D7CE53E1C25FD120000D765 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D7CE5401C25FD120000D765 /* IB Alphanizer */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE56A1C263D930000D765 /* Resource */,
+				6D7CE56B1C263DB90000D765 /* Swizzles */,
+				6D7CE5441C25FD120000D765 /* IBAlphanizer.h */,
+				6D7CE5451C25FD120000D765 /* IBAlphanizer.m */,
+				6D7CE5471C25FD120000D765 /* NSObject_Extension.h */,
+				6D7CE5481C25FD120000D765 /* NSObject_Extension.m */,
+				6D7CE5671C263D760000D765 /* IBAlphanizerPrefs.h */,
+				6D7CE5681C263D760000D765 /* IBAlphanizerPrefs.m */,
+				6D7CE54A1C25FD120000D765 /* Info.plist */,
+				6D7CE5411C25FD120000D765 /* Supporting Files */,
+			);
+			path = "IB Alphanizer";
+			sourceTree = "<group>";
+		};
+		6D7CE5411C25FD120000D765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE5421C25FD120000D765 /* IB Alphanizer.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D7CE55A1C2612B40000D765 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE55B1C2612B40000D765 /* JRSwizzle */,
+			);
+			path = "3rd Party";
+			sourceTree = "<group>";
+		};
+		6D7CE55B1C2612B40000D765 /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE55C1C2612B40000D765 /* JRSwizzle.h */,
+				6D7CE55D1C2612B40000D765 /* JRSwizzle.m */,
+				6D7CE55E1C2612B40000D765 /* README.markdown */,
+			);
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
+		6D7CE56A1C263D930000D765 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE5721C263E0A0000D765 /* IBAlphanizerResource.h */,
+				6D7CE5731C263E0A0000D765 /* IBAlphanizerResource.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6D7CE56B1C263DB90000D765 /* Swizzles */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE56C1C263DE70000D765 /* IBAlphanizer+Swizzles.h */,
+				6D7CE56D1C263DE70000D765 /* IBAlphanizer+Swizzles.m */,
+				6D7CE7CA1C264A1B0000D765 /* IBUIEditorView+Swizzles.h */,
+				6D7CE7CB1C264A1B0000D765 /* IBUIEditorView+Swizzles.m */,
+			);
+			path = Swizzles;
+			sourceTree = "<group>";
+		};
+		6D7CE5751C2643270000D765 /* Private Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE5761C26434C0000D765 /* IDEInterfaceBuilderCocoaTouchIntegration */,
+			);
+			path = "Private Frameworks";
+			sourceTree = "<group>";
+		};
+		6D7CE5761C26434C0000D765 /* IDEInterfaceBuilderCocoaTouchIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CE5781C26435C0000D765 /* IDEInterfaceBuilderCocoaTouchIntegration.a */,
+			);
+			path = IDEInterfaceBuilderCocoaTouchIntegration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7CE5381C25FD120000D765 /* IB Alphanizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7CE54D1C25FD120000D765 /* Build configuration list for PBXNativeTarget "IB Alphanizer" */;
+			buildPhases = (
+				6D7CE5351C25FD120000D765 /* Sources */,
+				6D7CE5361C25FD120000D765 /* Resources */,
+				6D7CE5371C25FD120000D765 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IB Alphanizer";
+			productName = "IB Alphanizer";
+			productReference = 6D7CE5391C25FD120000D765 /* IB Alphanizer.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7CE5311C25FD120000D765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mushroomcloud;
+				TargetAttributes = {
+					6D7CE5381C25FD120000D765 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6D7CE5341C25FD120000D765 /* Build configuration list for PBXProject "IB Alphanizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D7CE5301C25FD120000D765;
+			productRefGroup = 6D7CE53A1C25FD120000D765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7CE5381C25FD120000D765 /* IB Alphanizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7CE5361C25FD120000D765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CE5431C25FD120000D765 /* IB Alphanizer.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7CE5351C25FD120000D765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CE5741C263E0A0000D765 /* IBAlphanizerResource.m in Sources */,
+				6D7CE5461C25FD120000D765 /* IBAlphanizer.m in Sources */,
+				6D7CE5701C263DE70000D765 /* IBAlphanizer+Swizzles.m in Sources */,
+				6D7CE5491C25FD120000D765 /* NSObject_Extension.m in Sources */,
+				6D7CE7CC1C264A1B0000D765 /* IBUIEditorView+Swizzles.m in Sources */,
+				6D7CE55F1C2612B40000D765 /* JRSwizzle.m in Sources */,
+				6D7CE5691C263D760000D765 /* IBAlphanizerPrefs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D7CE54B1C25FD120000D765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		6D7CE54C1C25FD120000D765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		6D7CE54E1C25FD120000D765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "IB Alphanizer/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Private\\ Frameworks/IDEInterfaceBuilderCocoaTouchIntegration",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mushroomcloud.IB-Alphanizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		6D7CE54F1C25FD120000D765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "IB Alphanizer/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Private\\ Frameworks/IDEInterfaceBuilderCocoaTouchIntegration",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mushroomcloud.IB-Alphanizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7CE5341C25FD120000D765 /* Build configuration list for PBXProject "IB Alphanizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7CE54B1C25FD120000D765 /* Debug */,
+				6D7CE54C1C25FD120000D765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7CE54D1C25FD120000D765 /* Build configuration list for PBXNativeTarget "IB Alphanizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7CE54E1C25FD120000D765 /* Debug */,
+				6D7CE54F1C25FD120000D765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7CE5311C25FD120000D765 /* Project object */;
+}
